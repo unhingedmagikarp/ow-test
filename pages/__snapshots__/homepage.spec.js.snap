@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page: HomePage matches snapshot when data is present 1`] = `
+"<client-only-stub>
+  <div class="wrapper">
+    <div>
+      <v-table-stub data="[object Object],[object Object]" current-page="1" page-size="5">
+        <thead>
+          <v-th-stub sort-key="Title Number">Title Number</v-th-stub>
+          <th>Class of Title</th>
+        </thead>
+      </v-table-stub>
+      <smart-pagination-stub current-page="1" total-pages="0"></smart-pagination-stub>
+    </div>
+  </div>
+</client-only-stub>"
+`;
